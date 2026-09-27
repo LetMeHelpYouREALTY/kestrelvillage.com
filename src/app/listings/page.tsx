@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { RealScoutListingsSection } from '@/components/RealScoutListingsSection';
 import { CalendlyLink } from '@/components/CalendlyLink';
+import { NearbyAmenitiesSection } from '@/components/maps/NearbyAmenitiesSection';
 
 const SITE_URL = 'https://www.kestrelvillage.com';
 
@@ -105,6 +106,11 @@ export default function ListingsPage() {
           </p>
         </div>
       </section>
+
+      <NearbyAmenitiesSection
+        heading="What's Near Your Next Home"
+        subheading="See schools, grocery, parks, and healthcare around Kestrel Village while you browse listings."
+      />
 
       {/* Search Tips */}
       <section className="px-6 py-16 bg-stone-900">

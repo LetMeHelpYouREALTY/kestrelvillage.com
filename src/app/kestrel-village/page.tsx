@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { RealScoutListingsSection } from '@/components/RealScoutListingsSection';
 import { CalendlyLink } from '@/components/CalendlyLink';
 import { communities } from '@/data/communities';
+import { NearbyAmenitiesSection } from '@/components/maps/NearbyAmenitiesSection';
 
 const SITE_URL = 'https://www.kestrelvillage.com';
 
@@ -253,6 +254,11 @@ export default function KestrelVillagePage() {
           </div>
         </div>
       </section>
+
+      <NearbyAmenitiesSection
+        heading="What's Near Kestrel Village"
+        subheading="Shops, schools, parks, and healthcare around Summerlin West—see the interactive map and full guide."
+      />
 
       {/* FAQ */}
       <section className="px-6 py-16 border-t border-stone-800/50">
