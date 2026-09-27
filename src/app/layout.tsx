@@ -22,7 +22,8 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Kestrel Village New Homes | Summerlin West Las Vegas | Dr. Jan Duffy",
-  description: "Explore Kestrel Village new construction homes in Summerlin West, Las Vegas. 8 communities from $455K by Woodside, KB Home, Taylor Morrison, Lennar & Pulte. Call Dr. Jan Duffy 702-222-1964 for VIP tours.",
+  description:
+    "Kestrel Village new construction in Summerlin West, Las Vegas. Eight communities from $455K. VIP tours with Dr. Jan Duffy: 702-222-1964.",
   keywords: "Kestrel Village, Summerlin West homes, Las Vegas new construction, Woodside Homes, KB Home, Pulte Homes, Lennar, Dr. Jan Duffy, 89138",
   authors: [{ name: "Dr. Jan Duffy" }],
   metadataBase: new URL("https://www.kestrelvillage.com"),
