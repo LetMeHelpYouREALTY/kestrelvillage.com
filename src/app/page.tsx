@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { communities } from '@/data/communities';
 import { RealScoutListingsSection } from '@/components/RealScoutListingsSection';
 import { CalendlyLink } from '@/components/CalendlyLink';
+import { NearbyAmenitiesSection } from '@/components/maps/NearbyAmenitiesSection';
 
 export default function KestrelVillage() {
   return (
@@ -56,6 +57,7 @@ export default function KestrelVillage() {
               <Link href="/testimonials" className="hover:text-amber-400 transition-colors">Testimonials</Link>
               <Link href="/neighborhood-map" className="hover:text-amber-400 transition-colors">Map</Link>
               <a href="#why-representation" className="hover:text-amber-400 transition-colors">Why Me</a>
+              <Link href="/nearby-amenities" className="hover:text-amber-400 transition-colors">Nearby</Link>
               <a href="#amenities" className="hover:text-amber-400 transition-colors">Amenities</a>
               <a href="#contact" className="hover:text-amber-400 transition-colors">Contact</a>
             </div>
@@ -350,6 +352,8 @@ export default function KestrelVillage() {
             </div>
           </div>
         </section>
+
+        <NearbyAmenitiesSection />
 
         {/* FAQ Section with Schema */}
         <section id="faq" className="py-24 px-6 bg-gradient-to-b from-stone-950 to-stone-900">
