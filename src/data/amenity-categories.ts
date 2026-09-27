@@ -18,9 +18,7 @@ export type AmenityCategory = {
   placeTypes: string[];
 };
 
-/**
- * Family-oriented master-planned community — parks, grocery, and schools lead.
- */
+/** Category chips for the amenity map — parks, grocery, and schools lead. */
 export const AMENITY_CATEGORIES: AmenityCategory[] = [
   { id: 'parks', label: 'Parks', placeTypes: ['park', 'national_park'] },
   { id: 'grocery', label: 'Grocery', placeTypes: ['grocery_store', 'supermarket'] },

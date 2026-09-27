@@ -41,7 +41,7 @@ const nextConfig: NextConfig = {
               "connect-src 'self'",
               "https://em.realscout.com https://www.realscout.com",
               "https://www.google-analytics.com https://analytics.google.com",
-              "https://maps.googleapis.com https://maps.gstatic.com",
+              "https://maps.googleapis.com https://maps.gstatic.com https://places.googleapis.com",
               "https://calendly.com https://assets.calendly.com https://dfp.calendly.com",
               "https://js.stripe.com https://m.stripe.network https://m.stripe.com",
               "https://www.recaptcha.net https://notifier-configs.airbrake.io;",
@@ -51,7 +51,10 @@ const nextConfig: NextConfig = {
               "https://js.stripe.com https://m.stripe.network",
               "https://www.recaptcha.net https://accounts.google.com",
               "https://www.google.com https://maps.google.com;",
-              "img-src 'self' data: blob: https://maps.googleapis.com https://maps.gstatic.com https:;"
+              "img-src 'self' data: blob: https://*.googleapis.com https://*.gstatic.com https://maps.googleapis.com https://maps.gstatic.com https:;",
+              "font-src 'self' https://fonts.gstatic.com;",
+              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;",
+              "worker-src blob:;"
             ].join(" "),
           },
         ],

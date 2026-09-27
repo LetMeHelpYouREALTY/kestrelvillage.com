@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 const faqItems = [
   {
     question: `What grocery stores are near ${COMMUNITY_NAME}?`,
-    answer: `Residents use grocers in Summerlin West and Downtown Summerlin, including Whole Foods Market at Downtown Summerlin (1980 Festival Plaza Dr) and Smith's Food and Drug on Charleston Blvd—typically a short drive from ${COMMUNITY_NAME}.`,
+    answer: `Residents use grocers in Summerlin West and Downtown Summerlin, including Whole Foods Market at 2475 S Town Center Dr and Smith's Food and Drug at 9851 W Charleston Blvd—typically a short drive from ${COMMUNITY_NAME}.`,
   },
   {
     question: `How far is ${COMMUNITY_NAME} from the Las Vegas Strip?`,
@@ -41,19 +41,19 @@ const faqItems = [
   },
   {
     question: `Are there hospitals near ${COMMUNITY_NAME}?`,
-    answer: `Yes. Summerlin Hospital Medical Center (657 Town Center Dr, Las Vegas) serves the area west of the valley and is a common choice for ${COMMUNITY_AREA_LABEL} residents.`,
+    answer: `Yes. Summerlin Hospital Medical Center (657 N Town Center Dr, Las Vegas) serves much of Summerlin West and is a common choice for ${COMMUNITY_AREA_LABEL} residents.`,
   },
   {
     question: `What parks are close to ${COMMUNITY_NAME}?`,
     answer: `Inside the village, Kestrel Creek Arroyo and Bluebird Park are community amenities. Nearby, Veterans Memorial Park and Red Rock Canyon National Conservation Area offer additional outdoor recreation.`,
   },
   {
-    question: `Where do families shop and dine near ${COMMUNITY_NAME}?`,
-    answer: `Downtown Summerlin is the primary regional hub for shopping, dining, and entertainment—about a 10-minute drive from much of ${COMMUNITY_AREA_LABEL} (approximate).`,
+    question: `Where do residents shop and dine near ${COMMUNITY_NAME}?`,
+    answer: `Downtown Summerlin (1980 Festival Plaza Dr) is the primary regional hub for shopping, dining, and entertainment—about a 10-minute drive from much of ${COMMUNITY_AREA_LABEL} (approximate).`,
   },
   {
-    question: `What schools serve ${COMMUNITY_NAME}?`,
-    answer: `Clark County School District schools near Summerlin West include Palo Verde High School and Sig Rogich Middle School. Always confirm attendance boundaries with CCSD for your specific address.`,
+    question: `Which CCSD schools are assigned to ${COMMUNITY_NAME} addresses?`,
+    answer: `Attendance varies by address within Summerlin West. Nearby CCSD campuses include Palo Verde High School (333 S Pavilion Center Dr) and Sig Rogich Middle School (235 N Pavilion Center Dr). Verify your zoned schools with the CCSD Zoning Search (ccsd.net) for your specific lot.`,
   },
   {
     question: `How far is Harry Reid International Airport from ${COMMUNITY_NAME}?`,
@@ -121,12 +121,13 @@ function buildSchemas() {
         name: place.name,
         address: {
           '@type': 'PostalAddress',
-          streetAddress: place.streetAddress,
+          ...(place.streetAddress ? { streetAddress: place.streetAddress } : {}),
           addressLocality: place.addressLocality,
           addressRegion: place.addressRegion,
           postalCode: place.postalCode,
           addressCountry: 'US',
         },
+        url: place.sourceUrl,
         geo: {
           '@type': 'GeoCoordinates',
           latitude: place.lat,
@@ -248,7 +249,7 @@ export default function NearbyAmenitiesPage() {
             <p className="text-stone-400 leading-relaxed">
               Most day-to-day dining and coffee runs head to <strong className="text-stone-300">Downtown Summerlin</strong>{' '}
               (1980 Festival Plaza Dr), with national and local restaurants across the district. Grocery with in-store
-              options includes <strong className="text-stone-300">Whole Foods Market</strong> at the same center.
+              options include <strong className="text-stone-300">Whole Foods Market</strong> at 2475 S Town Center Dr in Downtown Summerlin.
             </p>
           </div>
 
@@ -259,7 +260,7 @@ export default function NearbyAmenitiesPage() {
             <p className="text-stone-400 leading-relaxed">
               Within {COMMUNITY_NAME}, <strong className="text-stone-300">Kestrel Creek Arroyo</strong> and{' '}
               <strong className="text-stone-300">Bluebird Park</strong> are village amenities. Beyond the community,{' '}
-              <strong className="text-stone-300">Veterans Memorial Park</strong> (101 S Pavilion Center Dr) and{' '}
+              <strong className="text-stone-300">Veterans Memorial Park</strong> (101 N Pavilion Center Dr) and{' '}
               <strong className="text-stone-300">Red Rock Canyon National Conservation Area</strong> (1000 Scenic Loop Dr)
               are well-known outdoor destinations west of Summerlin.
             </p>
@@ -270,9 +271,9 @@ export default function NearbyAmenitiesPage() {
               Golf
             </h2>
             <p className="text-stone-400 leading-relaxed">
-              Summerlin is known for championship golf. <strong className="text-stone-300">TPC Summerlin</strong> (1700
-              Village Center Cir) hosts PGA Tour events, and <strong className="text-stone-300">Bear&apos;s Best Las Vegas</strong>{' '}
-              (2400 N Tenaya Way) offers a distinct course experience nearby.
+              Summerlin West has several public golf options. <strong className="text-stone-300">TPC Las Vegas</strong>{' '}
+              (9851 Canyon Run Dr) is the area&apos;s PGA TOUR course, and <strong className="text-stone-300">Angel Park Golf Club</strong>{' '}
+              (100 S Rampart Blvd) offers multiple public courses minutes from Red Rock Canyon.
             </p>
           </div>
 
@@ -281,9 +282,9 @@ export default function NearbyAmenitiesPage() {
               Healthcare &amp; <span className="italic text-amber-400">Pharmacies</span>
             </h2>
             <p className="text-stone-400 leading-relaxed">
-              <strong className="text-stone-300">Summerlin Hospital Medical Center</strong> (657 Town Center Dr) is the
-              primary full-service hospital serving much of Summerlin West. Retail pharmacies such as{' '}
-              <strong className="text-stone-300">CVS</strong> on W Sahara Ave are within a reasonable drive for
+              <strong className="text-stone-300">Summerlin Hospital Medical Center</strong> (657 N Town Center Dr) is a
+              full-service hospital serving much of Summerlin West. Retail pharmacies such as{' '}
+              <strong className="text-stone-300">Walgreens</strong> at 8633 W Charleston Blvd are within a reasonable drive for
               prescriptions and essentials.
             </p>
           </div>
@@ -295,9 +296,9 @@ export default function NearbyAmenitiesPage() {
             <p className="text-stone-400 leading-relaxed">
               <strong className="text-stone-300">Downtown Summerlin</strong> anchors regional shopping. For schools,{' '}
               <strong className="text-stone-300">Palo Verde High School</strong> (333 S Pavilion Center Dr) and{' '}
-              <strong className="text-stone-300">Sig Rogich Middle School</strong> (7875 W Charleston Blvd) are among the
-              CCSD campuses families research when moving to {COMMUNITY_AREA_LABEL}. Verify your zoned schools by address
-              with the district.
+              <strong className="text-stone-300">Sig Rogich Middle School</strong> (235 N Pavilion Center Dr) are among the
+              CCSD campuses buyers research when moving to {COMMUNITY_AREA_LABEL}. Which CCSD schools are assigned to{' '}
+              {COMMUNITY_NAME} addresses? Verify with the CCSD Zoning Search for your lot.
             </p>
           </div>
 
