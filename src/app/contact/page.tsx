@@ -7,7 +7,7 @@ const SITE_URL = 'https://www.kestrelvillage.com';
 
 export const metadata: Metadata = {
   title: 'Contact Dr. Jan Duffy | Kestrel Village Real Estate Expert',
-  description: 'Contact Dr. Jan Duffy for Kestrel Village new construction homes in Summerlin West. Call 702-222-1964 for VIP tours. 30+ years Las Vegas real estate experience.',
+  description: 'Contact Dr. Jan Duffy for Kestrel Village new construction homes in Summerlin West. Call 702-222-1964 for VIP tours. In real estate since 1983.',
   alternates: { canonical: `${SITE_URL}/contact` },
   openGraph: {
     title: 'Contact Dr. Jan Duffy | Kestrel Village Expert',
@@ -24,7 +24,7 @@ const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'Dr. Jan Duffy - Kestrel Village Specialist',
-  description: 'Expert REALTOR® specializing in Kestrel Village new construction in Summerlin West, Las Vegas. 30+ years experience.',
+  description: 'Expert REALTOR® specializing in Kestrel Village new construction in Summerlin West, Las Vegas. In real estate since 1983.',
   url: SITE_URL,
   telephone: '+1-702-222-1964',
   email: 'jan@drjanduffy.com',
@@ -99,7 +99,7 @@ export default function ContactPage() {
             Contact <span className="italic text-amber-400">Dr. Jan Duffy</span>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-stone-400">
-            Your Kestrel Village specialist with 30+ years of Las Vegas real estate experience.
+            Your Kestrel Village specialist, in real estate since 1983.
             Call me before visiting any model homes to protect your buyer representation.
           </p>
         </div>
@@ -202,14 +202,7 @@ export default function ContactPage() {
                 </div>
               </a>
 
-              <div className="p-6 bg-stone-900/50 border border-stone-800 rounded-sm">
-                <h3 className="text-lg font-semibold text-stone-100 mb-4">Brokerage</h3>
-                <p className="text-stone-300 font-medium">Berkshire Hathaway HomeServices</p>
-                <p className="text-stone-400">Nevada Properties</p>
-                <p className="text-stone-400 text-sm mt-2">1980 Festival Plaza Drive, Suite 300</p>
-                <p className="text-stone-400 text-sm">Las Vegas, NV 89135</p>
-                <p className="text-stone-500 text-sm mt-2">REALTOR® S.0197614.LLC</p>
-              </div>
+              
             </div>
 
             {/* Map */}
@@ -268,8 +261,7 @@ export default function ContactPage() {
       <footer className="border-t border-stone-800 px-6 py-8">
         <div className="mx-auto flex max-w-4xl flex-col items-center justify-between gap-4 md:flex-row">
           <p className="text-center text-sm text-stone-500 md:text-left">
-            Dr. Jan Duffy | Berkshire Hathaway HomeServices Nevada Properties |
-            REALTOR® S.0197614.LLC
+            Dr. Jan Duffy, REALTOR® | Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC
           </p>
           <CalendlyLink className="font-semibold text-amber-400 hover:text-amber-300">
             Schedule a Tour

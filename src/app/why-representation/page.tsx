@@ -152,7 +152,7 @@ export default function WhyRepresentationPage() {
                   'I work exclusively for YOU, not the builder',
                   'Expert negotiation for upgrades and credits',
                   'Know all current builder incentives',
-                  '30+ years reviewing builder contracts',
+                  'Reviewing builder contracts since 1983',
                   'Independent inspection guidance',
                   'Your advocate from contract to closing',
                   'Zero cost—builder pays my commission',
@@ -315,8 +315,7 @@ export default function WhyRepresentationPage() {
       <footer className="border-t border-stone-800 px-6 py-8">
         <div className="mx-auto flex max-w-4xl flex-col items-center justify-between gap-4 md:flex-row">
           <p className="text-center text-sm text-stone-500 md:text-left">
-            Dr. Jan Duffy | Berkshire Hathaway HomeServices Nevada Properties |
-            REALTOR® S.0197614.LLC
+            Dr. Jan Duffy, REALTOR® | Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC
           </p>
           <CalendlyLink className="font-semibold text-amber-400 hover:text-amber-300">
             Schedule a Tour

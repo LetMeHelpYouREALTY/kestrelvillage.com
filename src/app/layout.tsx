@@ -65,7 +65,7 @@ const localBusinessSchema = {
   "@type": "RealEstateAgent",
   "name": "Dr. Jan Duffy - Kestrel Village Specialist",
   "image": "https://www.kestrelvillage.com/dr-jan-duffy.jpg",
-  "description": "Expert REALTOR® specializing in Kestrel Village new construction homes in Summerlin West, Las Vegas. 30+ years experience, Ph.D. in Market Research.",
+  "description": "Expert REALTOR® specializing in Kestrel Village new construction homes in Summerlin West, Las Vegas. In real estate since 1983, Ph.D. in Research.",
   "url": "https://www.kestrelvillage.com",
   "telephone": "+1-702-222-1964",
   "email": "jan@drjanduffy.com",

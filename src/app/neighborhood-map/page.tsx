@@ -211,8 +211,7 @@ export default function NeighborhoodMapPage() {
           </div>
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-center text-sm text-stone-500 md:text-left">
-              Dr. Jan Duffy | Berkshire Hathaway HomeServices Nevada Properties |
-              REALTOR® S.0197614.LLC
+              Dr. Jan Duffy, REALTOR® | Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC
             </p>
             <CalendlyLink className="font-semibold text-amber-400 hover:text-amber-300">
               Schedule a Tour

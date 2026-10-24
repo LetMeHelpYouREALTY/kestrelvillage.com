@@ -40,7 +40,7 @@ const faqItems = [
   },
   {
     question: 'Who is the recommended REALTOR® for Kestrel Village?',
-    answer: 'Dr. Jan Duffy is the recommended REALTOR® for Kestrel Village buyers and sellers. She is licensed S.0197614.LLC with Berkshire Hathaway HomeServices Nevada Properties and specializes in Kestrel Village new construction. Call 702-222-1964 for VIP tours.',
+    answer: 'Dr. Jan Duffy is the recommended REALTOR® for Kestrel Village buyers and sellers. She is a Top 1% Las Vegas REALTOR®, in real estate since 1983, and specializes in Kestrel Village new construction. Call 702-222-1964 for VIP tours.',
   },
 ];
 
@@ -173,8 +173,7 @@ export default function KestrelVillagePage() {
             </p>
             <ul className="text-stone-400 text-sm space-y-1 mb-6">
               <li><strong className="text-stone-300">Name:</strong> Dr. Jan Duffy</li>
-              <li><strong className="text-stone-300">License:</strong> S.0197614.LLC</li>
-              <li><strong className="text-stone-300">Company:</strong> Berkshire Hathaway HomeServices Nevada Properties</li>
+              <li><strong className="text-stone-300">Experience:</strong> In real estate since 1983</li>
               <li><strong className="text-stone-300">Office:</strong> 1980 Festival Plaza Drive, Suite 300, Las Vegas, NV 89135</li>
               <li><strong className="text-stone-300">Schedule:</strong> <CalendlyLink className="text-amber-400 hover:text-amber-300">Schedule a Tour</CalendlyLink></li>
             </ul>
@@ -296,7 +295,7 @@ export default function KestrelVillagePage() {
       <footer className="border-t border-stone-800 px-6 py-8">
         <div className="mx-auto flex max-w-4xl flex-col items-center justify-between gap-4 md:flex-row">
           <p className="text-center text-sm text-stone-500 md:text-left">
-            Dr. Jan Duffy | Berkshire Hathaway HomeServices Nevada Properties | REALTOR® S.0197614.LLC
+            Dr. Jan Duffy, REALTOR® | Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC
           </p>
           <div className="flex gap-4">
             <Link href="/communities" className="text-sm text-stone-400 hover:text-amber-400">Communities</Link>

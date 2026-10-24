@@ -7,11 +7,11 @@ const SITE_URL = 'https://www.kestrelvillage.com';
 
 export const metadata: Metadata = {
   title: 'About Dr. Jan Duffy | Kestrel Village Real Estate Specialist',
-  description: 'Dr. Jan Duffy - 30+ years Las Vegas real estate experience. Ph.D. in Market Research. $127M+ in sales. Kestrel Village new construction specialist. REALTOR® S.0197614.LLC',
+  description: 'Dr. Jan Duffy - In real estate since 1983. Ph.D. in Research. $127M+ in sales. Kestrel Village new construction specialist.',
   alternates: { canonical: `${SITE_URL}/about` },
   openGraph: {
     title: 'About Dr. Jan Duffy | Your Kestrel Village Expert',
-    description: '30+ years Las Vegas real estate experience. Ph.D. in Market Research. Specializing in Kestrel Village new construction homes.',
+    description: 'In real estate since 1983. Ph.D. in Research. Specializing in Kestrel Village new construction homes.',
     url: `${SITE_URL}/about`,
     siteName: 'Kestrel Village',
     locale: 'en_US',
@@ -91,8 +91,8 @@ export default function AboutPage() {
         <div className="mx-auto max-w-5xl">
           <div className="grid md:grid-cols-4 gap-6 mb-16">
             {[
-              { value: '30+', label: 'Years Experience' },
-              { value: 'Ph.D.', label: 'Market Research' },
+              { value: 'Since 1983', label: 'In Real Estate' },
+              { value: 'Ph.D.', label: 'Research' },
               { value: '$127M+', label: 'In Sales' },
               { value: '500+', label: 'Families Served' },
             ].map((stat, i) => (
@@ -117,7 +117,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-stone-400 leading-relaxed">
                 <p>
-                  With over 30 years in Las Vegas real estate and a Ph.D. in Market Research, 
+                  In real estate since 1983 and with a Ph.D. in Research, 
                   I bring an analytical, data-driven approach to helping you find the perfect home. 
                   I specialize in new construction because I understand the unique challenges and 
                   opportunities these transactions present.
@@ -159,10 +159,7 @@ export default function AboutPage() {
               <div className="bg-stone-900/50 border border-stone-800 rounded-sm p-6">
                 <h3 className="text-lg font-semibold text-stone-100 mb-4">Credentials</h3>
                 <div className="space-y-3 text-stone-400">
-                  <p><strong className="text-stone-300">License:</strong> REALTOR® S.0197614.LLC</p>
-                  <p><strong className="text-stone-300">Brokerage:</strong> Berkshire Hathaway HomeServices Nevada Properties</p>
-                  <p><strong className="text-stone-300">Education:</strong> Ph.D. in Market Research</p>
-                  <p><strong className="text-stone-300">Experience:</strong> 30+ Years in Las Vegas Real Estate</p>
+                  <p><strong className="text-stone-300">Ranking:</strong> Top 1% Las Vegas REALTOR®</p> <p><strong className="text-stone-300">Education:</strong> Ph.D. in Research</p> <p><strong className="text-stone-300">Experience:</strong> In Real Estate Since 1983</p>
                 </div>
               </div>
             </div>
@@ -192,7 +189,7 @@ export default function AboutPage() {
               {
                 icon: '💰',
                 title: 'Zero Cost to You',
-                desc: 'The builder pays my commission. My 30+ years of expertise costs you nothing extra.'
+                desc: 'The builder pays my commission. My expertise, built since 1983, costs you nothing extra.'
               },
               {
                 icon: '📋',
@@ -207,7 +204,7 @@ export default function AboutPage() {
               {
                 icon: '📊',
                 title: 'Market Analysis',
-                desc: 'Ph.D.-level market research ensures you pay the right price for your new home.'
+                desc: 'Ph.D.-level research ensures you pay the right price for your new home.'
               },
               {
                 icon: '🤝',
@@ -260,8 +257,7 @@ export default function AboutPage() {
       <footer className="border-t border-stone-800 px-6 py-8">
         <div className="mx-auto flex max-w-4xl flex-col items-center justify-between gap-4 md:flex-row">
           <p className="text-center text-sm text-stone-500 md:text-left">
-            Dr. Jan Duffy | Berkshire Hathaway HomeServices Nevada Properties |
-            REALTOR® S.0197614.LLC
+            Dr. Jan Duffy, REALTOR® | Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC
           </p>
           <CalendlyLink className="font-semibold text-amber-400 hover:text-amber-300">
             Schedule a Tour
