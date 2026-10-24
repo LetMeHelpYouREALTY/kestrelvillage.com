@@ -7,11 +7,11 @@ const SITE_URL = 'https://www.kestrelvillage.com';
 
 export const metadata: Metadata = {
   title: 'Contact Dr. Jan Duffy | Kestrel Village Real Estate Expert',
-  description: 'Contact Dr. Jan Duffy for Kestrel Village new construction homes in Summerlin West. Call 702-222-1964 for VIP tours. In real estate since 1983.',
+  description: 'Contact Dr. Jan Duffy for Kestrel Village new construction homes in Summerlin West. Call 725-720-2805 for VIP tours. In real estate since 1983.',
   alternates: { canonical: `${SITE_URL}/contact` },
   openGraph: {
     title: 'Contact Dr. Jan Duffy | Kestrel Village Expert',
-    description: 'Schedule your VIP tour of Kestrel Village new construction homes. Call or text 702-222-1964.',
+    description: 'Schedule your VIP tour of Kestrel Village new construction homes. Call or text 725-720-2805.',
     url: `${SITE_URL}/contact`,
     siteName: 'Kestrel Village',
     locale: 'en_US',
@@ -26,7 +26,7 @@ const localBusinessSchema = {
   name: 'Dr. Jan Duffy - Kestrel Village Specialist',
   description: 'Expert REALTOR® specializing in Kestrel Village new construction in Summerlin West, Las Vegas. In real estate since 1983.',
   url: SITE_URL,
-  telephone: '+1-702-222-1964',
+  telephone: '+1-725-720-2805',
   email: 'jan@drjanduffy.com',
   address: {
     '@type': 'PostalAddress',

@@ -88,7 +88,7 @@ export default function ListingsPage() {
             </svg>
           </div>
           <p className="text-stone-300 text-sm">
-            <strong className="text-amber-400">Important:</strong> Call Dr. Jan Duffy at 702-222-1964 BEFORE visiting any model homes. 
+            <strong className="text-amber-400">Important:</strong> Call Dr. Jan Duffy at 725-720-2805 BEFORE visiting any model homes. 
             Builder registration is required on your first visit to protect your buyer representation rights.
           </p>
         </div>

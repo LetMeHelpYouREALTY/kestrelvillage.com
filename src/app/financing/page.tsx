@@ -424,7 +424,7 @@ export default function FinancingPage() {
                 { '@type': 'Question', name: "What is a 'deferred' second mortgage?", acceptedAnswer: { '@type': 'Answer', text: "Most HIP programs provide DPA as a 30-year second mortgage with no interest and no monthly payments. You only repay it when you sell, refinance, or pay off your first mortgage." } },
                 { '@type': 'Question', name: 'Can I combine DPA with builder incentives?', acceptedAnswer: { '@type': 'Answer', text: "In most cases, yes! Builder closing cost credits can often be combined with DPA programs. We'll help you maximize your benefits." } },
                 { '@type': 'Question', name: 'What income limits apply?', acceptedAnswer: { '@type': 'Answer', text: 'Income limits vary by program and county. For Clark County (Las Vegas), limits range from 80% AMI to $165,000 depending on the program. Contact us for current limits.' } },
-                { '@type': 'Question', name: 'How do I find a HIP-approved lender?', acceptedAnswer: { '@type': 'Answer', text: 'Dr. Jan Duffy works with several HIP-approved lenders who specialize in new construction. Call 702-222-1964 for referrals to lenders experienced with these programs.' } },
+                { '@type': 'Question', name: 'How do I find a HIP-approved lender?', acceptedAnswer: { '@type': 'Answer', text: 'Dr. Jan Duffy works with several HIP-approved lenders who specialize in new construction. Call 725-720-2805 for referrals to lenders experienced with these programs.' } },
               ],
             }),
           }}
@@ -456,7 +456,7 @@ export default function FinancingPage() {
               },
               {
                 q: "How do I find a HIP-approved lender?",
-                a: "Dr. Jan Duffy works with several HIP-approved lenders who specialize in new construction. Call 702-222-1964 for referrals to lenders experienced with these programs."
+                a: "Dr. Jan Duffy works with several HIP-approved lenders who specialize in new construction. Call 725-720-2805 for referrals to lenders experienced with these programs."
               },
             ].map((faq, i) => (
               <details key={i} className="group bg-stone-950 border border-stone-800 rounded-sm">
