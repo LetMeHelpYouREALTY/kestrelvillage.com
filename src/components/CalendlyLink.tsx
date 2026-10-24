@@ -1,8 +1,9 @@
 'use client';
 
+import { usePathname } from 'next/navigation';
 import { useCallback, useRef } from 'react';
+import { calendlyUrl } from '@/lib/calendly';
 
-const CALENDLY_URL = 'https://calendly.com/drjanduffy/1-home-tour-30-mins';
 const CALENDLY_CSS = 'https://assets.calendly.com/assets/external/widget.css';
 const CALENDLY_JS = 'https://assets.calendly.com/assets/external/widget.js';
 
@@ -63,6 +64,9 @@ function loadCalendly(): Promise<void> {
 
 export function CalendlyLink({ children, className }: CalendlyLinkProps) {
   const isLoadingRef = useRef(false);
+  // Event follows the page; the old /1-home-tour-30-mins event is not active.
+  const pathname = usePathname() || '/';
+  const CALENDLY_URL = calendlyUrl(pathname, 'popup');
   
   const handleClick = useCallback(async (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
@@ -92,7 +96,7 @@ export function CalendlyLink({ children, className }: CalendlyLinkProps) {
         }
       }
     }
-  }, []);
+  }, [CALENDLY_URL]);
 
   return (
     <a 

@@ -1,7 +1,9 @@
 'use client';
 
 import dynamic from 'next/dynamic';
+import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
+import { calendlyUrl } from '@/lib/calendly';
 
 const LazyRealScoutListings = dynamic(
   () => import('@/components/LazyRealScoutListings').then((m) => ({ default: m.LazyRealScoutListings })),
@@ -14,6 +16,7 @@ const LazyRealScoutListings = dynamic(
  */
 export function RealScoutListingsSection() {
   const [inView, setInView] = useState(false);
+  const pathname = usePathname() || '/';
   const sentinelRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -31,6 +34,7 @@ export function RealScoutListingsSection() {
   }, []);
 
   return (
+    <>
     <div ref={sentinelRef} className="min-h-[400px]">
       {inView ? (
         <LazyRealScoutListings />
@@ -47,5 +51,18 @@ export function RealScoutListingsSection() {
         </div>
       )}
     </div>
+    {/* Booking strip directly after the RealScout listings */}
+    <div className="mt-6 flex flex-col items-center justify-between gap-4 rounded-sm bg-stone-900 p-6 text-center md:flex-row md:text-left">
+      <p className="text-lg font-semibold text-stone-100">See a home you like? Pick a time with Dr. Jan Duffy.</p>
+      <a
+        href={calendlyUrl(pathname, 'after-listings')}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center justify-center rounded-sm bg-amber-500 px-6 py-3 font-semibold text-stone-950 hover:bg-amber-400 transition-colors"
+      >
+        Schedule time with me
+      </a>
+    </div>
+    </>
   );
 }
