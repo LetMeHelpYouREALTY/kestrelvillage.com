@@ -8,7 +8,7 @@ export async function GET() {
 Dr. Jan Duffy is a Nevada-licensed real estate professional (S.0197614.LLC) with Berkshire Hathaway HomeServices Nevada Properties. In real estate since 1983, with $127M+ in career sales, Dr. Duffy specializes in this community and helps families find their perfect Nevada home.
 - **Brokerage:** Berkshire Hathaway HomeServices Nevada Properties
 - **License:** Nevada S.0197614.LLC
-- **Phone:** 702-222-1964
+- **Phone:** 725-720-2805
 - **Website:** ${baseUrl}
 ## Services
 - Residential home buying and selling
@@ -23,7 +23,7 @@ Las Vegas, Henderson, North Las Vegas, and surrounding Southern Nevada communiti
 - [Contact](${baseUrl}/contact)
 - [About](${baseUrl}/about)
 ## Contact
-- **Call/Text:** 702-222-1964
+- **Call/Text:** 725-720-2805
 - **Website:** ${baseUrl}
 `;
   return new Response(content, {

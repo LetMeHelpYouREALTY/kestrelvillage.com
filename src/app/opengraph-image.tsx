@@ -82,7 +82,7 @@ export default async function OpenGraphImage() {
             fontWeight: 600,
           }}
         >
-          kestrelvillage.com · 702-222-1964
+          kestrelvillage.com · 725-720-2805
         </div>
       </div>
     ),

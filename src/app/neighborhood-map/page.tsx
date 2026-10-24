@@ -109,7 +109,7 @@ export default function NeighborhoodMapPage() {
             />
           </div>
           <p className="mt-4 text-sm text-stone-500 text-center">
-            Summerlin West, Las Vegas, NV 89138 • Call Dr. Jan Duffy before your first visit: 702-222-1964
+            Summerlin West, Las Vegas, NV 89138 • Call Dr. Jan Duffy before your first visit: 725-720-2805
           </p>
         </div>
       </section>

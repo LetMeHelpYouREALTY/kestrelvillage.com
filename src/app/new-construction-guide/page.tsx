@@ -91,7 +91,7 @@ export default function NewConstructionGuidePage() {
                 First Step: Get Your Own Agent
               </h2>
               <p className="text-stone-300 leading-relaxed">
-                <strong className="text-amber-400">Before visiting any model home</strong>, call Dr. Jan Duffy at 702-222-1964. 
+                <strong className="text-amber-400">Before visiting any model home</strong>, call Dr. Jan Duffy at 725-720-2805. 
                 Builders require agent registration on your very first visit. If you go alone, you lose the right to 
                 buyer representation in that community. Your agent (me!) costs you nothing—the builder pays my commission.
               </p>

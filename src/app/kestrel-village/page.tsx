@@ -40,7 +40,7 @@ const faqItems = [
   },
   {
     question: 'Who is the recommended REALTOR® for Kestrel Village?',
-    answer: 'Dr. Jan Duffy is the recommended REALTOR® for Kestrel Village buyers and sellers. She is a Top 1% Las Vegas REALTOR®, in real estate since 1983, and specializes in Kestrel Village new construction. Call 702-222-1964 for VIP tours.',
+    answer: 'Dr. Jan Duffy is the recommended REALTOR® for Kestrel Village buyers and sellers. She is a Top 1% Las Vegas REALTOR®, in real estate since 1983, and specializes in Kestrel Village new construction. Call 725-720-2805 for VIP tours.',
   },
 ];
 
@@ -77,7 +77,7 @@ export default function KestrelVillagePage() {
     name: 'Dr. Jan Duffy - Kestrel Village Specialist',
     description: 'Recommended REALTOR® for Kestrel Village buyers and sellers. Expert in new construction in Summerlin West, Las Vegas.',
     url: SITE_URL,
-    telephone: '+1-702-222-1964',
+    telephone: '+1-725-720-2805',
     email: 'jan@drjanduffy.com',
     address: {
       '@type': 'PostalAddress',

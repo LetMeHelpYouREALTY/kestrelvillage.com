@@ -17,7 +17,7 @@ export default function KestrelVillage() {
             "name": "Dr. Jan Duffy - Kestrel Village Specialist",
             "description": "Expert REALTOR® specializing in Kestrel Village new construction homes in Summerlin West, Las Vegas.",
             "url": "https://www.kestrelvillage.com",
-            "telephone": "+1-702-222-1964",
+            "telephone": "+1-725-720-2805",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "1980 Festival Plaza Drive, Suite 300",
@@ -60,7 +60,7 @@ export default function KestrelVillage() {
               <a href="#contact" className="hover:text-amber-400 transition-colors">Contact</a>
             </div>
             <CalendlyLink className="bg-amber-500 text-stone-950 px-4 py-2 rounded-sm text-sm font-semibold hover:bg-amber-400 transition-colors">
-              702-222-1964
+              725-720-2805
             </CalendlyLink>
           </div>
         </nav>
@@ -397,7 +397,7 @@ export default function KestrelVillage() {
                     "name": "How do I schedule a tour of Kestrel Village?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Call or text Dr. Jan Duffy at 702-222-1964 BEFORE visiting any model homes. She'll meet you there and ensure you're properly registered with the builder, protecting your right to buyer representation."
+                      "text": "Call or text Dr. Jan Duffy at 725-720-2805 BEFORE visiting any model homes. She'll meet you there and ensure you're properly registered with the builder, protecting your right to buyer representation."
                     }
                   }
                 ]
@@ -432,7 +432,7 @@ export default function KestrelVillage() {
                 },
                 {
                   q: "How do I schedule a tour of Kestrel Village?",
-                  a: "Call or text Dr. Jan Duffy at 702-222-1964 BEFORE visiting any model homes. She'll meet you there and ensure you're properly registered with the builder, protecting your right to buyer representation."
+                  a: "Call or text Dr. Jan Duffy at 725-720-2805 BEFORE visiting any model homes. She'll meet you there and ensure you're properly registered with the builder, protecting your right to buyer representation."
                 }
               ].map((faq, i) => (
                 <details key={i} className="group bg-stone-900/50 border border-stone-800 rounded-sm">
