@@ -120,7 +120,7 @@ export default function ListingsPage() {
               <span className="text-3xl mb-4 block">🏠</span>
               <h3 className="text-lg font-semibold text-stone-100 mb-2">New Construction</h3>
               <p className="text-stone-400 text-sm">
-                Look for "New Construction" tags. These are homes being built by Woodside, Lennar, and Pulte in Kestrel Village.
+                Look for &ldquo;New Construction&rdquo; tags. These are homes being built by Woodside, Lennar, and Pulte in Kestrel Village.
               </p>
             </div>
             <div className="bg-stone-950 border border-stone-800 rounded-sm p-6">
