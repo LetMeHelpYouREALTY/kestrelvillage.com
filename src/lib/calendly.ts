@@ -8,6 +8,7 @@ export const CALENDLY_EVENTS = {
 export type CalendlyEvent = keyof typeof CALENDLY_EVENTS;
 
 export function calendlyEventForPath(pathname: string): CalendlyEvent {
+  if (pathname.startsWith('/sell-your-home-to-buy-at-kestrel-village')) return 'listing';
   if (pathname.startsWith('/market-report')) return 'listing';
   if (pathname.startsWith('/financing')) return 'buyer';
   if (pathname.startsWith('/contact')) return 'strategy';

@@ -53,6 +53,7 @@ export default function KestrelVillage() {
               <Link href="/kestrel-village" className="hover:text-amber-400 transition-colors">Kestrel Village</Link>
               <a href="#communities" className="hover:text-amber-400 transition-colors">Communities</a>
               <a href="#listings" className="hover:text-amber-400 transition-colors">Listings</a>
+              <Link href="/sell-your-home-to-buy-at-kestrel-village" className="hover:text-amber-400 transition-colors">Sell to Buy</Link>
               <Link href="/testimonials" className="hover:text-amber-400 transition-colors">Testimonials</Link>
               <Link href="/neighborhood-map" className="hover:text-amber-400 transition-colors">Map</Link>
               <a href="#why-representation" className="hover:text-amber-400 transition-colors">Why Me</a>
@@ -120,9 +121,12 @@ export default function KestrelVillage() {
                 Explore Communities →
               </a>
             </div>
-            <p className="mt-6 animate-fade-in-delay-4">
+            <p className="mt-6 animate-fade-in-delay-4 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
               <Link href="/kestrel-village" className="text-stone-500 hover:text-amber-400 text-sm transition-colors">
                 Learn about Kestrel Village →
+              </Link>
+              <Link href="/sell-your-home-to-buy-at-kestrel-village" className="text-amber-400/90 hover:text-amber-300 text-sm font-medium transition-colors">
+                What&apos;s my home worth? →
               </Link>
             </p>
 
@@ -336,7 +340,7 @@ export default function KestrelVillage() {
                 { title: 'Bluebird Park', desc: 'Climbing play structure, playground, and shaded seating areas for families.', icon: '🎪' },
                 { title: 'Walkable Connectivity', desc: 'Pedestrian access between neighborhoods, parks, and future retail services.', icon: '🚶' },
                 { title: 'Elevated Views', desc: '3,000+ ft elevation with panoramic Las Vegas valley and mountain vistas.', icon: '🏔️' },
-                { title: 'Minutes to Red Rock', desc: 'Quick access to Red Rock Canyon, Downtown Summerlin, and top-rated schools.', icon: '🚗' },
+                { title: 'Minutes to Red Rock', desc: 'Quick access to Red Rock Canyon, Downtown Summerlin, and TPC Summerlin.', icon: '🚗' },
                 { title: 'Contemporary Architecture', desc: 'Modern Spanish-inspired designs with open floor plans and smart home features.', icon: '🏠' }
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4 p-6 bg-stone-900/30 border border-stone-800/50 rounded-sm">
@@ -389,7 +393,7 @@ export default function KestrelVillage() {
                     "name": "Where is Kestrel Village located?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Kestrel Village is located in Summerlin West, Las Vegas, NV 89138, at an elevation of 3,000+ feet. It's minutes from Red Rock Canyon, Downtown Summerlin, TPC Summerlin golf course, and top-rated schools."
+                      "text": "Kestrel Village is located in Summerlin West, Las Vegas, NV 89138, at an elevation of 3,000+ feet. It's minutes from Red Rock Canyon, Downtown Summerlin, TPC Summerlin golf course, and CCSD campuses such as Sig Rogich Middle School and Palo Verde High School."
                     }
                   },
                   {
@@ -428,7 +432,7 @@ export default function KestrelVillage() {
                 },
                 {
                   q: "Where is Kestrel Village located?",
-                  a: "Kestrel Village is located in Summerlin West, Las Vegas, NV 89138, at an elevation of 3,000+ feet. It's minutes from Red Rock Canyon, Downtown Summerlin, TPC Summerlin golf course, and top-rated schools."
+                  a: "Kestrel Village is located in Summerlin West, Las Vegas, NV 89138, at an elevation of 3,000+ feet. It's minutes from Red Rock Canyon, Downtown Summerlin, TPC Summerlin golf course, and CCSD campuses such as Sig Rogich Middle School and Palo Verde High School."
                 },
                 {
                   q: "How do I schedule a tour of Kestrel Village?",
