@@ -55,6 +55,18 @@ export default function AmenitiesPage() {
         </div>
       </header>
 
+      <section className="px-6 py-8 border-b border-stone-800/50 bg-amber-500/5">
+        <div className="mx-auto max-w-4xl text-center">
+          <p className="text-stone-300 text-sm md:text-base">
+            Looking for shops, schools, and services <em>outside</em> the village? See our{' '}
+            <Link href="/nearby-amenities" className="text-amber-400 hover:text-amber-300 font-medium">
+              Nearby Amenities in Kestrel Village, Las Vegas
+            </Link>{' '}
+            guide with an interactive map.
+          </p>
+        </div>
+      </section>
+
       {/* RealScout Widget */}
       <section className="px-6 py-16 bg-gradient-to-b from-stone-950 to-stone-900">
         <div className="mx-auto max-w-6xl">

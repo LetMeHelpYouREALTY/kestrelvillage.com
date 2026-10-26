@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { RealScoutListingsSection } from '@/components/RealScoutListingsSection';
 import { CalendlyLink } from '@/components/CalendlyLink';
+import { NearbyAmenitiesSection } from '@/components/maps/NearbyAmenitiesSection';
 
 const SITE_URL = 'https://www.kestrelvillage.com';
 
@@ -285,6 +286,11 @@ export default function SummerlinPage() {
           </div>
         </div>
       </section>
+
+      <NearbyAmenitiesSection
+        heading="What's Near Kestrel Village in Summerlin"
+        subheading="From new homes in Kestrel Village to regional shopping, parks, and healthcare across Summerlin West."
+      />
 
       {/* CTA */}
       <section className="px-6 py-16">
