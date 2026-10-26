@@ -337,7 +337,7 @@ export default function KestrelVillage() {
             <div className="grid md:grid-cols-2 gap-8">
               {[
                 { title: 'Kestrel Creek Arroyo', desc: '7.5-acre linear park with trails, passive turf areas, and shaded seating. Opened 2025.', icon: '🌿' },
-                { title: 'Bluebird Park', desc: 'Climbing play structure, playground, and shaded seating areas for families.', icon: '🎪' },
+                { title: 'Bluebird Park', desc: 'Climbing play structure, playground, and shaded seating areas.', icon: '🎪' },
                 { title: 'Walkable Connectivity', desc: 'Pedestrian access between neighborhoods, parks, and future retail services.', icon: '🚶' },
                 { title: 'Elevated Views', desc: '3,000+ ft elevation with panoramic Las Vegas valley and mountain vistas.', icon: '🏔️' },
                 { title: 'Minutes to Red Rock', desc: 'Quick access to Red Rock Canyon, Downtown Summerlin, and TPC Summerlin.', icon: '🚗' },

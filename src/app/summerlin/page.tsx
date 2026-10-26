@@ -6,8 +6,8 @@ import { CalendlyLink } from '@/components/CalendlyLink';
 const SITE_URL = 'https://www.kestrelvillage.com';
 
 export const metadata: Metadata = {
-  title: 'Summerlin Las Vegas | Master-Planned Community | Kestrel Village',
-  description: 'Discover Summerlin, Las Vegas\'s premier master-planned community. 22,500 acres, 200+ miles of trails, 300+ parks, top-rated schools. Kestrel Village is the newest village in Summerlin West.',
+  title: 'Summerlin Las Vegas | Master-Planned | Kestrel Village',
+  description: 'Discover Summerlin, Las Vegas\'s master-planned community. 22,500 acres, 200+ miles of trails, 300+ parks, 26 school campuses. Kestrel Village is in Summerlin West.',
   alternates: { canonical: `${SITE_URL}/summerlin` },
   openGraph: {
     title: 'Summerlin Las Vegas | Premier Master-Planned Community',
@@ -169,8 +169,8 @@ export default function SummerlinPage() {
               },
               {
                 icon: '🏫',
-                title: 'Top-Rated Schools',
-                desc: '26 public and private schools with some of Nevada\'s highest academic rankings.'
+                title: 'Schools & CCSD',
+                desc: '26 public and private campuses; see our Schools page for names, grades, and Clark County zones.'
               },
               {
                 icon: '🏔️',
@@ -222,7 +222,7 @@ export default function SummerlinPage() {
             </div>
 
             {[
-              { name: 'The Paseos', desc: 'Family-friendly village with excellent schools and parks.' },
+              { name: 'The Paseos', desc: 'Village with community parks and CCSD school zones.' },
               { name: 'The Arbors', desc: 'Established village with mature landscaping and golf course access.' },
               { name: 'The Ridges', desc: 'Luxury custom homes with stunning Red Rock views.' },
               { name: 'Stonebridge', desc: 'Guard-gated community with premium amenities.' },
@@ -253,7 +253,7 @@ export default function SummerlinPage() {
                 {[
                   '#1 Best-Selling Master-Planned Community in Nevada',
                   'Clean air and 300+ days of sunshine annually',
-                  'Safe, family-friendly neighborhoods',
+                  'HOA-maintained landscaping and village pools',
                   'Strong property values and appreciation',
                   'Active lifestyle with endless outdoor activities',
                 ].map((item, i) => (
@@ -272,7 +272,7 @@ export default function SummerlinPage() {
                   '20 minutes to Las Vegas Strip and airport',
                   'Easy freeway access via I-215 and US-95',
                   'World-class shopping at Downtown Summerlin',
-                  'Top-rated restaurants and entertainment',
+                  'Dining and entertainment at Downtown Summerlin',
                   'Minutes from Red Rock Canyon',
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-stone-400">

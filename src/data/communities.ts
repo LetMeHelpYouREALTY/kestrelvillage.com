@@ -40,7 +40,7 @@ export const communities: Community[] = [
       '2–4 bedrooms, 1,724–2,217 sq ft',
       'Near Red Rock Canyon & Downtown Summerlin'
     ],
-    amenities: ['Community pool', '200+ miles of trails', 'Near TPC Summerlin golf', 'Downtown Summerlin shopping', 'Energy-efficient features', '26 top-rated schools nearby']
+    amenities: ['Community pool', '200+ miles of trails', 'Near TPC Summerlin golf', 'Downtown Summerlin shopping', 'Energy-efficient features', 'Near CCSD schools (see Schools page)']
   },
   {
     slug: 'falcon-crest',

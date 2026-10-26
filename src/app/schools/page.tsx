@@ -7,11 +7,11 @@ const SITE_URL = 'https://www.kestrelvillage.com';
 
 export const metadata: Metadata = {
   title: 'Schools Near Kestrel Village | Summerlin West Las Vegas',
-  description: 'Discover top-rated schools near Kestrel Village in Summerlin West. Elementary, middle, and high schools plus private options. Clark County School District information.',
+  description: 'CCSD and private schools near Kestrel Village in Summerlin West. Elementary, middle, and high campuses. Verify zones with Clark County School District.',
   alternates: { canonical: `${SITE_URL}/schools` },
   openGraph: {
     title: 'Schools Near Kestrel Village | Summerlin Education',
-    description: 'Top-rated public and private schools serving Kestrel Village in Summerlin West, Las Vegas.',
+    description: 'CCSD and private schools serving Kestrel Village in Summerlin West, Las Vegas. School names, grades, and distances.',
     url: `${SITE_URL}/schools`,
     siteName: 'Kestrel Village',
     locale: 'en_US',
@@ -69,7 +69,7 @@ export default function SchoolsPage() {
             Schools Near <span className="italic text-amber-400">Kestrel Village</span>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-stone-400 text-lg">
-            Summerlin is home to 26 top-rated schools. Kestrel Village residents have access to excellent public and private education options.
+            Summerlin has 26 CCSD and private school campuses. Kestrel Village is near William R. Lummis Elementary, Sig Rogich Middle School, Palo Verde High School, and other Clark County schools.
           </p>
         </div>
       </header>
@@ -80,7 +80,7 @@ export default function SchoolsPage() {
           <div className="text-center mb-10">
             <p className="text-xs uppercase tracking-widest text-amber-500">Live MLS Listings</p>
             <h2 className="mt-4 text-2xl font-light md:text-3xl" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>
-              Homes Near <span className="italic text-amber-400">Top Schools</span>
+              Homes Near <span className="italic text-amber-400">Summerlin Schools</span>
             </h2>
           </div>
 
@@ -98,7 +98,7 @@ export default function SchoolsPage() {
                 <h2 className="text-lg font-semibold text-stone-100 mb-2">Clark County School District</h2>
                 <p className="text-stone-400">
                   Kestrel Village is served by the Clark County School District (CCSD), the 5th largest school district 
-                  in the United States. Summerlin schools consistently rank among the top performers in Nevada.
+                  in the United States. School assignments are set by CCSD zoning—verify boundaries with the district before you buy.
                 </p>
               </div>
             </div>
@@ -209,8 +209,8 @@ export default function SchoolsPage() {
                 <h3 className="text-lg font-semibold text-stone-100">Bishop Gorman High School</h3>
               </div>
               <p className="text-stone-400 text-sm mb-4">
-                Nevada&apos;s premier private high school, known for national championship athletic programs 
-                and exceptional academics. Alumni include numerous professional athletes and business leaders.
+                Private high school in Las Vegas with varsity athletics and college-prep coursework. 
+                Alumni include professional athletes and business leaders.
               </p>
               <div className="text-amber-400 text-sm">★ 9/10 Rating</div>
             </div>
@@ -233,8 +233,7 @@ export default function SchoolsPage() {
                 <h3 className="text-lg font-semibold text-stone-100">Palo Verde High School</h3>
               </div>
               <p className="text-stone-400 text-sm mb-4">
-                Top-ranked public high school serving Summerlin. Offers magnet programs, advanced placement 
-                courses, and competitive athletics. Strong STEM and arts programs.
+                Public high school serving Summerlin. Magnet programs, Advanced Placement courses, athletics, STEM, and arts.
               </p>
               <div className="text-amber-400 text-sm">★ 7/10 Rating</div>
             </div>
@@ -245,8 +244,7 @@ export default function SchoolsPage() {
                 <h3 className="text-lg font-semibold text-stone-100">Faith Lutheran High School</h3>
               </div>
               <p className="text-stone-400 text-sm mb-4">
-                Faith-based private school with excellent academics and athletics. Known for strong 
-                community values, college prep curriculum, and supportive environment.
+                Faith-based private high school with college-prep curriculum, athletics, and campus ministries.
               </p>
               <div className="text-amber-400 text-sm">★ 8/10 Rating</div>
             </div>

@@ -183,7 +183,7 @@ export default function MarketReportPage() {
                 Las Vegas continues to attract buyers from California and other high-cost states. 
                 The combination of no state income tax, affordable housing, and year-round sunshine 
                 keeps demand strong. Summerlin, particularly new construction in areas like Kestrel Village, 
-                remains highly sought after by relocating families and professionals.
+                remains highly sought after by relocating buyers and professionals.
               </p>
             </div>
 

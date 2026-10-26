@@ -184,15 +184,15 @@ export default function RelocationPage() {
               Why <span className="italic text-amber-400">Summerlin</span>?
             </h2>
             <p className="text-stone-400 mt-4 max-w-2xl mx-auto">
-              Summerlin is Las Vegas&apos;s premier master-planned community—and the #1 choice for relocating families.
+              Summerlin is Las Vegas&apos;s master-planned community—a common destination for buyers relocating to Southern Nevada.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { icon: '🏫', title: 'Top Schools', desc: 'Some of Nevada\'s highest-rated public and private schools serve Summerlin.' },
+              { icon: '🏫', title: 'Local Schools', desc: 'CCSD campuses plus private schools such as Bishop Gorman and The Meadows School—verify zones with the district.' },
               { icon: '🏔️', title: 'Natural Beauty', desc: 'Red Rock Canyon views, 200+ miles of trails, and 300+ parks.' },
-              { icon: '🛡️', title: 'Safety', desc: 'Consistently ranked among the safest areas in Las Vegas.' },
+              { icon: '🛡️', title: 'Services', desc: 'Summerlin Hospital Medical Center, Downtown Summerlin, and LVMPD serve Summerlin West.' },
               { icon: '🛍️', title: 'Amenities', desc: 'Downtown Summerlin, restaurants, entertainment all nearby.' },
               { icon: '✈️', title: 'Easy Access', desc: '20 minutes to the airport, easy freeway access.' },
               { icon: '🏘️', title: 'Community', desc: 'Established neighborhoods with HOAs that maintain standards.' },
@@ -282,7 +282,7 @@ export default function RelocationPage() {
               </h3>
               <ul className="space-y-3">
                 {[
-                  'Research neighborhoods (Summerlin is top choice for families)',
+                  'Research neighborhoods (compare Summerlin West villages and commute times)',
                   'Get pre-approved for a mortgage',
                   'Connect with a local real estate agent (call Dr. Jan!)',
                   'Visit Las Vegas for a scouting trip',
@@ -335,7 +335,7 @@ export default function RelocationPage() {
               {[
                 { icon: '🏠', title: 'Brand New Homes', desc: 'No surprises with new construction—everything has warranties.' },
                 { icon: '🎨', title: 'Choose Your Finishes', desc: 'Personalize your home at the design center.' },
-                { icon: '📍', title: 'Prime Location', desc: 'Best schools, safest area, mountain views.' },
+                { icon: '📍', title: 'Prime Location', desc: 'CCSD school zones, Red Rock views, 3,000+ ft elevation in Summerlin West.' },
                 { icon: '💰', title: 'DPA Available', desc: 'Up to $20,000 in down payment assistance.' },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4">
@@ -350,7 +350,7 @@ export default function RelocationPage() {
 
             <div className="text-center mt-8 pt-8 border-t border-stone-800">
               <p className="text-stone-400 mb-4">
-                Dr. Jan Duffy specializes in helping relocating families find their perfect home in Kestrel Village.
+                Dr. Jan Duffy helps relocating buyers tour Kestrel Village communities and navigate new-build contracts.
               </p>
               <CalendlyLink className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-amber-500 text-stone-950 font-semibold rounded-sm hover:bg-amber-400 transition-colors">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
