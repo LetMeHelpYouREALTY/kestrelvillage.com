@@ -6,37 +6,30 @@ const REALSOUT_SCRIPT_URL = 'https://em.realscout.com/widgets/realscout-web-comp
 
 export function LazyRealScoutListings() {
   const [scriptLoaded, setScriptLoaded] = useState(false);
-  const [inView, setInView] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    if (!inView || scriptLoaded) return;
-
-    const existing = document.querySelector(`script[src="${REALSOUT_SCRIPT_URL}"]`);
-    if (existing) {
-      setScriptLoaded(true);
-      return;
-    }
-
-    const script = document.createElement('script');
-    script.src = REALSOUT_SCRIPT_URL;
-    script.type = 'module';
-    script.async = true;
-    script.onload = () => setScriptLoaded(true);
-    document.body.appendChild(script);
-
-    return () => {
-      // Do not remove script on unmount so widget stays if user scrolls away and back
-    };
-  }, [inView, scriptLoaded]);
-
+  // Load the RealScout script once the container scrolls near the viewport.
+  // The script is left in place on unmount so the widget survives scrolling away and back.
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
 
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry?.isIntersecting) setInView(true);
+        if (!entry?.isIntersecting) return;
+        observer.disconnect();
+
+        if (document.querySelector(`script[src="${REALSOUT_SCRIPT_URL}"]`)) {
+          setScriptLoaded(true);
+          return;
+        }
+
+        const script = document.createElement('script');
+        script.src = REALSOUT_SCRIPT_URL;
+        script.type = 'module';
+        script.async = true;
+        script.onload = () => setScriptLoaded(true);
+        document.body.appendChild(script);
       },
       { rootMargin: '100px', threshold: 0 }
     );
