@@ -40,7 +40,7 @@ const faqItems = [
   },
   {
     question: 'Who is the recommended REALTOR® for Kestrel Village?',
-    answer: 'Dr. Jan Duffy is the recommended REALTOR® for Kestrel Village buyers and sellers. She is a Top 1% Las Vegas REALTOR®, in real estate since 1983, and specializes in Kestrel Village new construction. Call 725-720-2805 for VIP tours.',
+    answer: 'Dr. Jan Duffy is the recommended REALTOR® for Kestrel Village buyers and sellers. She is a Las Vegas REALTOR®, licensed since 2008 · 35 years in Las Vegas, and specializes in Kestrel Village new construction. Call 725-720-2805 for VIP tours.',
   },
 ];
 
@@ -173,7 +173,7 @@ export default function KestrelVillagePage() {
             </p>
             <ul className="text-stone-400 text-sm space-y-1 mb-6">
               <li><strong className="text-stone-300">Name:</strong> Dr. Jan Duffy</li>
-              <li><strong className="text-stone-300">Experience:</strong> In real estate since 1983</li>
+              <li><strong className="text-stone-300">Experience:</strong> Licensed since 2008 · 35 years in Las Vegas</li>
               <li><strong className="text-stone-300">Office:</strong> 1980 Festival Plaza Drive, Suite 300, Las Vegas, NV 89135</li>
               <li><strong className="text-stone-300">Schedule:</strong> <CalendlyLink className="text-amber-400 hover:text-amber-300">Schedule a Tour</CalendlyLink></li>
             </ul>

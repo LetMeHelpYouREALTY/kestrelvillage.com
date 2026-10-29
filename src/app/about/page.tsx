@@ -7,11 +7,11 @@ const SITE_URL = 'https://www.kestrelvillage.com';
 
 export const metadata: Metadata = {
   title: 'About Dr. Jan Duffy | Kestrel Village Real Estate Specialist',
-  description: 'Dr. Jan Duffy - In real estate since 1983. Ph.D. in Research. $127M+ in sales. Kestrel Village new construction specialist.',
+  description: 'Dr. Jan Duffy - Licensed since 2008 · 35 years in Las Vegas. Ph.D. in Research. $127M+ in sales. Kestrel Village new construction specialist.',
   alternates: { canonical: `${SITE_URL}/about` },
   openGraph: {
     title: 'About Dr. Jan Duffy | Your Kestrel Village Expert',
-    description: 'In real estate since 1983. Ph.D. in Research. Specializing in Kestrel Village new construction homes.',
+    description: 'Licensed since 2008 · 35 years in Las Vegas. Ph.D. in Research. Specializing in Kestrel Village new construction homes.',
     url: `${SITE_URL}/about`,
     siteName: 'Kestrel Village',
     locale: 'en_US',
@@ -91,7 +91,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-5xl">
           <div className="grid md:grid-cols-4 gap-6 mb-16">
             {[
-              { value: 'Since 1983', label: 'In Real Estate' },
+              { value: 'Since 2008', label: 'In Real Estate' },
               { value: 'Ph.D.', label: 'Research' },
               { value: '$127M+', label: 'In Sales' },
               { value: '500+', label: 'Families Served' },
@@ -117,7 +117,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-stone-400 leading-relaxed">
                 <p>
-                  In real estate since 1983 and with a Ph.D. in Research, 
+                  Licensed since 2008 · 35 years in Las Vegas and with a Ph.D. in Research, 
                   I bring an analytical, data-driven approach to helping you find the perfect home. 
                   I specialize in new construction because I understand the unique challenges and 
                   opportunities these transactions present.
@@ -159,7 +159,7 @@ export default function AboutPage() {
               <div className="bg-stone-900/50 border border-stone-800 rounded-sm p-6">
                 <h3 className="text-lg font-semibold text-stone-100 mb-4">Credentials</h3>
                 <div className="space-y-3 text-stone-400">
-                  <p><strong className="text-stone-300">Ranking:</strong> Top 1% Las Vegas REALTOR®</p> <p><strong className="text-stone-300">Education:</strong> Ph.D. in Research</p> <p><strong className="text-stone-300">Experience:</strong> In Real Estate Since 1983</p>
+                  <p><strong className="text-stone-300">Rating:</strong> 5.0★ from 50 Realtor.com reviews</p> <p><strong className="text-stone-300">Education:</strong> Ph.D. in Research</p> <p><strong className="text-stone-300">Experience:</strong> Licensed Since 2008</p>
                 </div>
               </div>
             </div>
@@ -189,7 +189,7 @@ export default function AboutPage() {
               {
                 icon: '💰',
                 title: 'Zero Cost to You',
-                desc: 'The builder pays my commission. My expertise, built since 1983, costs you nothing extra.'
+                desc: 'The builder pays my commission. My expertise, built over 35 years in Las Vegas, costs you nothing extra.'
               },
               {
                 icon: '📋',
