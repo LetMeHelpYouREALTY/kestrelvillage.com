@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { DM_Sans, Playfair_Display } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
-import WidgetTracker from './widget-tracker'
 
 const GA_TRACKING_ID = "G-XQ8YL4EWTR";
 
@@ -169,7 +168,6 @@ export default function RootLayout({
             gtag('config', '${GA_TRACKING_ID}');
           `}
         </Script>
-        <WidgetTracker />
       </body>
     </html>
   );
