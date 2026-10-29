@@ -195,7 +195,7 @@ export default function RelocationPage() {
               { icon: '🛡️', title: 'Services', desc: 'Summerlin Hospital Medical Center, Downtown Summerlin, and LVMPD serve Summerlin West.' },
               { icon: '🛍️', title: 'Amenities', desc: 'Downtown Summerlin, restaurants, entertainment all nearby.' },
               { icon: '✈️', title: 'Easy Access', desc: '20 minutes to the airport, easy freeway access.' },
-              { icon: '🏘️', title: 'Community', desc: 'Established neighborhoods with HOAs that maintain standards.' },
+              { icon: '🏘️', title: 'Community', desc: 'Older neighborhoods with HOAs that maintain standards.' },
             ].map((item, i) => (
               <div key={i} className="bg-stone-950 border border-stone-800 rounded-sm p-6 hover:border-amber-500/30 transition-all">
                 <span className="text-3xl mb-4 block">{item.icon}</span>
