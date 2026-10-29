@@ -13,7 +13,7 @@ Hyperlocal real estate site for Kestrel Village (Summerlin, Las Vegas) for Dr. J
 
 ## Rules
 - **Fair Housing first.** No protected-class wording or proxies ("safe neighborhood," "good schools," "family-friendly"). Describe square footage, amenities, school names, and commute times instead.
-- **This site's phone number is (725) 720-2805.** Never put 702-222-1964 on the site; that number is for client email and text only.
+- **This site's phone number is (725) 720-2805.** Never put 702-500-1955 on the site; that number is for client email and text only.
 - **No secrets in git.** `.env*` stays gitignored. A new env var goes in Vercel (Production + Preview), and the PR names it.
 - **Listings come from the RealScout widget** (`src/components/LazyRealScoutListings.tsx`). Don't hard-code prices or addresses as current market data.
 - Work on a branch and open a PR. `main` deploys to production.
