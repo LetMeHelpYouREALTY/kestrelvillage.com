@@ -234,7 +234,7 @@ export default function KestrelVillage() {
             <div className="grid md:grid-cols-3 gap-6">
               {[
                 { icon: '🛡️', title: 'Protect Your Interests', desc: "Builder sales reps work for the builder. I work exclusively for you—negotiating upgrades, credits, and terms." },
-                { icon: '💰', title: 'Zero Cost To You', desc: "The builder pays my commission. My contract expertise, built since 1983, costs you nothing extra." },
+                { icon: '💰', title: 'Zero Cost To You', desc: "The builder pays my commission. My contract expertise, built over 35 years in Las Vegas, costs you nothing extra." },
                 { icon: '📋', title: 'Contract Review', desc: "Builder contracts favor builders. I've reviewed hundreds—I know what to negotiate and what red flags to catch." }
               ].map((item, i) => (
                 <div key={i} className="bg-stone-900/50 border border-stone-800 rounded-sm p-6 hover:border-amber-500/30 transition-[border-color]">
@@ -526,7 +526,7 @@ export default function KestrelVillage() {
               Dr. Jan Duffy
             </h2>
             <p className="text-stone-400 text-lg leading-relaxed mb-8">
-              Top 1% Las Vegas REALTOR®, in real estate since 1983. Ph.D. in Research. $127M+ in sales. 
+              Las Vegas REALTOR®, licensed since 2008 · 35 years in Las Vegas. Ph.D. in Research. $127M+ in sales. 
               I specialize in new construction and know exactly how to negotiate with builders.
             </p>
             <div className="flex flex-wrap justify-center gap-6 text-sm text-stone-500">

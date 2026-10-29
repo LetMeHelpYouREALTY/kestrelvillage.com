@@ -5,7 +5,7 @@ export async function GET() {
   const content = `# Kestrel Village — Dr. Jan Duffy
 > Master-planned community homes in Las Vegas
 ## About
-Dr. Jan Duffy is a Nevada-licensed real estate professional (S.0197614.LLC) with Berkshire Hathaway HomeServices Nevada Properties. In real estate since 1983, with $127M+ in career sales, Dr. Duffy specializes in this community and helps families find their perfect Nevada home.
+Dr. Jan Duffy is a Nevada-licensed real estate professional (S.0197614.LLC) with Berkshire Hathaway HomeServices Nevada Properties. Licensed since 2008 · 35 years in Las Vegas, with $127M+ in career sales, Dr. Duffy specializes in this community and helps families find their perfect Nevada home.
 - **Brokerage:** Berkshire Hathaway HomeServices Nevada Properties
 - **License:** Nevada S.0197614.LLC
 - **Phone:** 725-720-2805

@@ -152,7 +152,7 @@ export default function WhyRepresentationPage() {
                   'I work exclusively for YOU, not the builder',
                   'Expert negotiation for upgrades and credits',
                   'Know all current builder incentives',
-                  'Reviewing builder contracts since 1983',
+                  'Reviewing builder contracts since 2008',
                   'Independent inspection guidance',
                   'Your advocate from contract to closing',
                   'Zero cost—builder pays my commission',
