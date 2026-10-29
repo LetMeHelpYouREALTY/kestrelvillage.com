@@ -1,11 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import {
-  communities,
-  getCommunityBySlug,
-  getAllCommunitySlugs,
-} from '@/data/communities';
+import { getCommunityBySlug, getAllCommunitySlugs } from '@/data/communities';
 import { RealScoutListingsSection } from '@/components/RealScoutListingsSection';
 import { CalendlyLink } from '@/components/CalendlyLink';
 
