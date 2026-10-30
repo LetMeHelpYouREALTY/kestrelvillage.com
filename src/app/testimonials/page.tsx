@@ -67,12 +67,6 @@ export default function TestimonialsPage() {
     '@type': 'LocalBusiness' as const,
     name: 'Dr. Jan Duffy - Kestrel Village Specialist',
     url: SITE_URL,
-    aggregateRating: {
-      '@type': 'AggregateRating' as const,
-      ratingValue: '5',
-      reviewCount: testimonials.length.toString(),
-      bestRating: '5',
-    },
     review: testimonials.map((t) => ({
       '@type': 'Review' as const,
       author: { '@type': 'Person' as const, name: t.author },
