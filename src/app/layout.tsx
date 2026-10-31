@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { DM_Sans, Playfair_Display } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
+import { Analytics as VercelAnalytics } from "@vercel/analytics/next";
+import { SpeedInsights as VercelSpeedInsights } from "@vercel/speed-insights/next";
 
 const GA_TRACKING_ID = "G-XQ8YL4EWTR";
 
@@ -168,6 +170,8 @@ export default function RootLayout({
             gtag('config', '${GA_TRACKING_ID}');
           `}
         </Script>
+        <VercelAnalytics />
+        <VercelSpeedInsights />
       </body>
     </html>
   );
