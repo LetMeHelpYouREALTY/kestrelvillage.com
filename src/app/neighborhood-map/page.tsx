@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { CalendlyLink } from '@/components/CalendlyLink';
 import { communities } from '@/data/communities';
+import { NearbyAmenitiesSection } from '@/components/maps/NearbyAmenitiesSection';
 
 const SITE_URL = 'https://www.kestrelvillage.com';
 
@@ -113,6 +114,12 @@ export default function NeighborhoodMapPage() {
           </p>
         </div>
       </section>
+
+      <NearbyAmenitiesSection
+        id="nearby-amenities-map"
+        heading="Nearby Amenities Map"
+        subheading="Filter restaurants, parks, schools, and more around Kestrel Village in Summerlin West."
+      />
 
       <section className="px-6 py-16">
         <div className="mx-auto max-w-6xl">
